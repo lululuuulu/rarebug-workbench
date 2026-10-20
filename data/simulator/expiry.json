@@ -1,0 +1,9 @@
+{
+  "case_id": "expiry",
+  "synthetic": true,
+  "version": 1,
+  "mechanism": "expiry",
+  "trigger_probability": 0.18,
+  "background_probability": 0.002,
+  "signature": "SIMULATED_EXPIRY_FAILURE"
+}

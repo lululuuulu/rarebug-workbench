@@ -1,0 +1,31 @@
+{
+  "id": "cache_shifted",
+  "synthetic": true,
+  "title": "Synthetic case: cache_shifted",
+  "sources": [
+    {
+      "id": "SIM-JIRA-001",
+      "kind": "jira",
+      "timestamp": "2026-01-15T10:05:00Z",
+      "body": "A synthetic cache remains stale for a longer interval."
+    },
+    {
+      "id": "SIM-CHAT-001",
+      "kind": "chat",
+      "timestamp": "2026-01-15T10:04:00Z",
+      "body": "No additional observations."
+    },
+    {
+      "id": "SIM-LOG-001",
+      "kind": "log",
+      "timestamp": "2026-01-15T10:03:00Z",
+      "body": "cache_stale=true cache_age_s=145 generation=previous"
+    },
+    {
+      "id": "SIM-ENV-001",
+      "kind": "environment",
+      "timestamp": "2026-01-15T10:00:00Z",
+      "body": "{\"os\": \"Synthetic Linux\", \"runtime\": \"Python 3.11 simulator\", \"service_version\": \"demo-1.0\"}"
+    }
+  ]
+}

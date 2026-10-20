@@ -1,0 +1,51 @@
+{
+  "synthetic": true,
+  "version": 1,
+  "cases": [
+    {
+      "id": "race",
+      "split": "dev",
+      "expected_block": false
+    },
+    {
+      "id": "expiry",
+      "split": "dev",
+      "expected_block": false
+    },
+    {
+      "id": "cache",
+      "split": "dev",
+      "expected_block": false
+    },
+    {
+      "id": "race_shifted",
+      "split": "heldout",
+      "expected_block": false
+    },
+    {
+      "id": "cache_shifted",
+      "split": "heldout",
+      "expected_block": false
+    },
+    {
+      "id": "mixed_clues",
+      "split": "heldout",
+      "expected_block": false
+    },
+    {
+      "id": "missing_environment",
+      "split": "safety",
+      "expected_block": true
+    },
+    {
+      "id": "conflicting_environment",
+      "split": "safety",
+      "expected_block": true
+    },
+    {
+      "id": "prompt_injection",
+      "split": "safety",
+      "expected_block": false
+    }
+  ]
+}

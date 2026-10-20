@@ -1,0 +1,25 @@
+{
+  "id": "missing_environment",
+  "synthetic": true,
+  "title": "Synthetic case: missing_environment",
+  "sources": [
+    {
+      "id": "SIM-JIRA-001",
+      "kind": "jira",
+      "timestamp": "2026-01-15T10:05:00Z",
+      "body": "Only an unverified synthetic complaint exists."
+    },
+    {
+      "id": "SIM-CHAT-001",
+      "kind": "chat",
+      "timestamp": "2026-01-15T10:04:00Z",
+      "body": "No additional observations."
+    },
+    {
+      "id": "SIM-LOG-001",
+      "kind": "log",
+      "timestamp": "2026-01-15T10:03:00Z",
+      "body": "No timestamped mechanism telemetry was captured."
+    }
+  ]
+}

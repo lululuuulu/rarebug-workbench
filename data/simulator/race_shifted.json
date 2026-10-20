@@ -1,0 +1,11 @@
+{
+  "case_id": "race_shifted",
+  "synthetic": true,
+  "version": 1,
+  "mechanism": "race",
+  "trigger_probability": 0.18,
+  "background_probability": 0.002,
+  "signature": "SIMULATED_RACE_FAILURE",
+  "min_concurrency": 16,
+  "min_jitter_ms": 60
+}

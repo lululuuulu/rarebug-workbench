@@ -1,0 +1,10 @@
+{
+  "case_id": "cache_shifted",
+  "synthetic": true,
+  "version": 1,
+  "mechanism": "cache",
+  "trigger_probability": 0.18,
+  "background_probability": 0.002,
+  "signature": "SIMULATED_CACHE_FAILURE",
+  "min_cache_age_s": 140
+}
